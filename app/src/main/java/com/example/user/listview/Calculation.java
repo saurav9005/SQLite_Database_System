@@ -22,7 +22,7 @@ public class Calculation extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.viewcontent_layout);
+        setContentView(R.layout.activity_calculation);
 
         num1 = (EditText) findViewById(R.id.num1);
         num2 = (EditText) findViewById(R.id.num2);
